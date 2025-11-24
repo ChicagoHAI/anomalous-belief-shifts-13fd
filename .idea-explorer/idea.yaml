@@ -1,0 +1,43 @@
+idea:
+  title: Detecting and Explaining Anomalous Belief Shifts in Language Models
+  domain: nlp
+  hypothesis: 'Specific interaction patterns or content types (such as adversarial,
+    ambiguous, or emotionally charged contexts) will lead to belief shifts in language
+    models that are either disproportionate or surprisingly stable, potentially exposing
+    latent model weaknesses or alignment issues.
+
+    '
+  background:
+    description: 'Research Question:
+
+      What kinds of anomalous or unexpected belief shift patterns emerge in language
+      models as context accumulates, and how can these be detected and explained to
+      users?
+
+      Experiment Plan:
+
+      Design interaction scripts across domains (moral, political, factual) with expected
+      belief shift trajectories. Automatically flag sessions where model beliefs remain
+      stubbornly constant or shift abruptly, counter to expectations based on prior
+      data. Use XAI techniques (e.g., SHAP, attention/gradient analysis) to identify
+      input features driving anomalous shifts. Generate and test user-facing explanations
+      for these anomalies, measuring interpretability and user trust. Validate on
+      real-world dialog datasets (e.g., Bard Intelligence and Dialogue Dataset).
+
+      '
+    papers:
+    - description: '"ProM-Ex: An Explainable Framework for Anomaly Detection in Process
+        Mining Using Large Language Models." Tripathi, A., Jadhav, S., Singh, S.,
+        Nandan, S. K., Vyas, R., & Vyas, O. P. (2024). Conference Information and
+        Communication Technology.'
+    - description: '"Accumulating Context Changes the Beliefs of Language Models."
+        Geng, J., Chen, H., Liu, R., Horta Ribeiro, M., Willer, R., Neubig, G., &
+        Griffiths, T. L. (2025).'
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/0tpHcGPz2emDUQNyxsRt
+    idea_id: detecting_and_explaining_anoma_20251123_213236_8e2a2c61
+    created_at: '2025-11-23T21:32:36.576946'
+    status: submitted
+    github_repo_name: anomalous-belief-shifts-13fd
+    github_repo_url: https://github.com/ChicagoHAI/anomalous-belief-shifts-13fd
