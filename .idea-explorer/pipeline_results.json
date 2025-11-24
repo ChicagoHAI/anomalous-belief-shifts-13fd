@@ -1,0 +1,13 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": false,
+      "completion_marker": null,
+      "outputs": {},
+      "log_file": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/logs/resource_finder_codex.log",
+      "elapsed_time": 0.2769193649291992
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd"
+}
