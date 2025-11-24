@@ -2,13 +2,32 @@
   "created_at": "2025-11-23T21:33:12.193238",
   "stages": {
     "resource_finder": {
-      "status": "failed",
-      "started_at": "2025-11-23T21:33:12.193741",
-      "completed_at": "2025-11-23T21:33:12.472135",
-      "success": false,
-      "outputs": {}
+      "status": "completed",
+      "started_at": "2025-11-23T21:42:53.473311",
+      "completed_at": "2025-11-23T21:46:02.043758",
+      "success": true,
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2025-11-23T21:46:02.044024",
+      "completed_at": "2025-11-23T22:13:08.838468",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 1626.7832186222076,
+        "log_file": "/data/hypogenicai/workspaces/anomalous-belief-shifts-13fd/logs/execution_codex.log"
+      }
     }
   },
   "current_stage": null,
-  "completed": false
+  "completed": true,
+  "completed_at": "2025-11-23T22:13:08.838944"
 }

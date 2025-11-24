@@ -1,0 +1,51 @@
+{
+  "summary": [
+    {
+      "condition": "affective",
+      "truthfulness_rate": 0.1,
+      "sycophancy_rate": 0.0,
+      "contradiction_mean": 0.559460643568309,
+      "self_consistency_var": 0.0028656269637652937
+    },
+    {
+      "condition": "misleading",
+      "truthfulness_rate": 0.06666666666666667,
+      "sycophancy_rate": 0.0,
+      "contradiction_mean": 0.6071114023895158,
+      "self_consistency_var": 0.0028656269637652937
+    },
+    {
+      "condition": "neutral",
+      "truthfulness_rate": 0.23333333333333334,
+      "sycophancy_rate": 0.0,
+      "contradiction_mean": 0.0,
+      "self_consistency_var": 0.0028656269637652937
+    },
+    {
+      "condition": "persona",
+      "truthfulness_rate": 0.1,
+      "sycophancy_rate": 0.9,
+      "contradiction_mean": 0.5738770165616491,
+      "self_consistency_var": 0.0028656269637652937
+    }
+  ],
+  "truthfulness_ci": {
+    "neutral": {
+      "low": 0.1,
+      "high": 0.4
+    },
+    "misleading": {
+      "low": 0.0,
+      "high": 0.16666666666666666
+    },
+    "affective": {
+      "low": 0.0,
+      "high": 0.23333333333333334
+    },
+    "persona": {
+      "low": 0.0,
+      "high": 0.23333333333333334
+    }
+  },
+  "anli_accuracy": 0.575
+}
